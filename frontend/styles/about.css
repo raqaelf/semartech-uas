@@ -1,0 +1,101 @@
+/* NAV */
+body{
+    color: #686464;
+    font-family: 'Assistant', sans-serif;
+}
+.bg-blue{
+    background-color: #4471c6 !important;
+}
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+.order-now{
+    border-radius: 50px;
+    border: 2px solid white;
+    margin: 0px 30px;
+}
+.nav-item .nav-link, .order-now {
+    font-size: 1.2em;
+    
+}
+.navbar-dark .navbar-nav .nav-link, .order-now {
+    color: white;
+}
+li.nav-item {
+    padding: 0px 20px;
+}
+/* NAV ENDS */
+
+
+.vertical{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.section-1,.section-2{
+    margin: 100px 0px;
+}
+.section-all-team {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #f9f9f9;
+}
+.section-1 span,.section-2 span{
+    font-size: 18px;
+}
+.section-1 h1, .section-2 h1 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 42px;
+    margin: 20px 0px;
+}
+
+
+.pofile {
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+}
+p.name {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 9px;
+    margin-bottom: 0px;
+}
+p.job {
+    font-size: 22px;
+    color: #5c5ca7;
+    font-weight: bold;
+}
+p.desc {
+    font-size: 18px;
+}
+h4.head {
+    font-weight: bold;
+}
+
+.footer {
+    /* border-top: 1px solid #686464; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #efefef;
+}
+.footer-down{
+    
+        text-align: center;
+        color: white;
+        padding: 5px;
+        background: #686464;
+        margin: 0px;
+    
+}
+.about {
+    background: url(../images/bg-about.png);
+    color: white;
+    padding-top: 20px;
+}
+.about .row{
+    height: 70vh;
+}
