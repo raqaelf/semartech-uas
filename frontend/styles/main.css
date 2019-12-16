@@ -283,3 +283,6 @@ div#navbarTogglerDemo01 {
   width: 100%;
   transition: 0.3s;
 }
+input[type="text"],select.project-type.mb-2, .order textarea {
+  width: 100%;
+}
