@@ -3,7 +3,7 @@ body {
   color: blue;
 }
 
-.navbar-brand img {
+/* .navbar-brand img {
   max-height: 40px;
 }
 
@@ -50,7 +50,7 @@ body {
 .btn-navbar-right {
   margin-top: -10px !important;
   margin-bottom: -8px !important;
-}
+} */
 
 header {
   color: #000;
@@ -59,6 +59,7 @@ header {
   background-size: cover;
   margin-top: -50px;
   padding: 90px 0 45px;
+  overflow: hidden;
 }
 
 header h1 {
@@ -263,21 +264,15 @@ footer a {
 li.nav-item {
   padding: 0px 20px;
 }
-div#navbarTogglerDemo01 {
-  background: transparent;
-}
+
 .sticky {
   background: #61a8ce;
   transition: 0.3s;
 }
 /* NAV ENDS */
 
-div#navbarTogglerDemo01 {
-  background: #2a58b0;
-  /* width: 100%; */
-}
 .custom-menu {
-  background-color: #2a324000;
+  /* background-color: #2a324000; */
   /* padding: 10px 30px; */
   position: fixed;
   width: 100%;
