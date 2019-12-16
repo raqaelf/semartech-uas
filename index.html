@@ -30,16 +30,16 @@
                         Services
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Mobile Apps</a>
+                        <a class="dropdown-item" href="#">Web Apps</a>
+                        <a class="dropdown-item" href="#">Design Apps</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portofolio.html">Protofolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Work</a>
+                    <a class="nav-link" href="#work" id="work" >Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
@@ -178,7 +178,7 @@
     </section>
     
     <!-- How to Work section -->
-    <section class="howtowork fadein">
+    <section id="howtowork" class="howtowork fadein">
         <div class="container">
             <div class="row buffer">
                 <div class="col-md-4"></div>
@@ -419,6 +419,13 @@
                 $('.fadeonload').each( function(i){
                     $(this).animate({'opacity':'1','margin-left':'0px'},1000);
                 }); 
+            });
+        </script>
+        <script>
+            $("#work").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#howtowork").offset().top
+                }, 2000);
             });
         </script>
     </body>

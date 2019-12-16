@@ -232,3 +232,47 @@ footer a {
   outline-width: 5px;
 }
 /*# sourceMappingURL=main.css.map */
+/* NAV */
+
+
+
+.custom-menu {
+  padding: 10px 30px;
+  transition: 0.3s;
+  background: #2a58b0;
+}
+.bg-blue{
+  background-color: #4471c6;
+}
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
+}
+.order-now {
+  border-radius: 50px;
+  border: 2px solid white;
+  margin-left: 20px;
+}
+.nav-item .nav-link, .order-now {
+  font-size: 1.2em;
+  
+}
+.navbar-dark .navbar-nav .nav-link, .order-now {
+  color: white;
+}
+li.nav-item {
+  padding: 0px 20px;
+}
+div#navbarTogglerDemo01 {
+  background: transparent;
+}
+.sticky {
+  background: #61a8ce;
+  transition: 0.3s;
+}
+/* NAV ENDS */
+
+div#navbarTogglerDemo01 {
+  background: #2a58b0;
+  /* width: 100%; */
+}
