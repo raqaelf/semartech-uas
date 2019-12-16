@@ -276,3 +276,10 @@ div#navbarTogglerDemo01 {
   background: #2a58b0;
   /* width: 100%; */
 }
+.custom-menu {
+  background-color: #2a324000;
+  /* padding: 10px 30px; */
+  position: fixed;
+  width: 100%;
+  transition: 0.3s;
+}
